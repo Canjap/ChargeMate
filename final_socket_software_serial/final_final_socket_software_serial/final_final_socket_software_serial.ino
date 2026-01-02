@@ -20,6 +20,7 @@ void setup() {
 
 void loop() {
   WiFiClient client;
+   // RMR to change IP to one used by device 
    if(!client.connect(IPAddress(192,168,1,4), 10000)){      
     Serial.println("Connection to host failed");
     delay(1000);
