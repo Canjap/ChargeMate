@@ -1,7 +1,7 @@
 #include <WiFi.h>
 
-const char* ssid = "NETGEAR28";
-const char* password = "zanygadfly641";
+const char* ssid = "**********";
+const char* password = "**********;
 
 // Example using Serial2 on GPIO17 (TX), GPIO16 (RX)
 void setup() {
